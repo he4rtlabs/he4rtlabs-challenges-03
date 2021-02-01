@@ -1,6 +1,33 @@
 {
-  "name": "he4rtlabs-challenges-03-resolution",
+  "name": "my-webpack-project",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@webpack-cli/init": "^1.1.2",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-minify": "^0.5.1",
+    "css-loader": "^5.0.1",
+    "eslint": "^7.19.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "mini-css-extract-plugin": "^1.3.5",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^10.1.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.19.0",
+    "webpack-cli": "^4.4.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "description": "My webpack project",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack serve --progress --inline --hot --color"
+  }
 }

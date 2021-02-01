@@ -1,0 +1,61 @@
+{
+  "he4rtlabs-challenges-03-resolution": {
+    "configuration": {
+      "config": {
+        "configName": "config",
+        "topScope": [
+          "const path = require('path');",
+          "const webpack = require('webpack');",
+          "\n",
+          "/*\n * We've enabled MiniCssExtractPlugin for you. This allows your app to\n * use css modules that will be moved into a separate CSS file instead of inside\n * one of your module entries!\n *\n * https://github.com/webpack-contrib/mini-css-extract-plugin\n *\n */",
+          "const MiniCssExtractPlugin = require('mini-css-extract-plugin');",
+          "\n"
+        ],
+        "webpackOptions": {
+          "mode": "'development'",
+          "entry": "'./public.js'",
+          "output": {
+            "path": "path.resolve(__dirname, 'public')"
+          },
+          "plugins": [
+            "new webpack.ProgressPlugin()",
+            "new MiniCssExtractPlugin({ filename:'App.css.[contenthash].css' })"
+          ],
+          "module": {
+            "rules": [
+              {
+                "test": "/\\.(js|jsx)$/",
+                "include": [],
+                "loader": "'babel-loader'"
+              },
+              {
+                "test": "/.(sa|sc|c)ss$/",
+                "use": [
+                  {
+                    "loader": "MiniCssExtractPlugin.loader"
+                  },
+                  {
+                    "loader": "\"css-loader\"",
+                    "options": {
+                      "sourceMap": true
+                    }
+                  },
+                  {
+                    "loader": "\"sass-loader\"",
+                    "options": {
+                      "sourceMap": true
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "devServer": {
+            "open": true,
+            "host": "'localhost'"
+          }
+        }
+      }
+    }
+  }
+}
