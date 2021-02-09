@@ -5,3 +5,5 @@ import './styles/logo.sass';
 import './styles/footer.sass';
 import './styles/backgroundForm.sass';
 import './styles/loginForm.sass';
+import './styles/registerForm.sass';
+import '../assets/he4rt-footer-black.png';

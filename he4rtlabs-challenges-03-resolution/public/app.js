@@ -16,7 +16,17 @@
   \********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_global_sass__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/global.sass */ \"./src/styles/global.sass\");\n/* harmony import */ var _styles_body_sass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/body.sass */ \"./src/styles/body.sass\");\n/* harmony import */ var _assets_he4rt_footer_white_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../assets/he4rt-footer-white.png */ \"./assets/he4rt-footer-white.png\");\n/* harmony import */ var _styles_Logo_sass__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./styles/Logo.sass */ \"./src/styles/Logo.sass\");\n/* harmony import */ var _styles_Footer_sass__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./styles/Footer.sass */ \"./src/styles/Footer.sass\");\n\r\n\r\n\r\n\r\n\r\n\n\n//# sourceURL=webpack://my-webpack-project/./src/app.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_global_sass__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/global.sass */ \"./src/styles/global.sass\");\n/* harmony import */ var _styles_body_sass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/body.sass */ \"./src/styles/body.sass\");\n/* harmony import */ var _assets_he4rt_footer_white_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../assets/he4rt-footer-white.png */ \"./assets/he4rt-footer-white.png\");\n/* harmony import */ var _styles_logo_sass__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./styles/logo.sass */ \"./src/styles/logo.sass\");\n/* harmony import */ var _styles_footer_sass__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./styles/footer.sass */ \"./src/styles/footer.sass\");\n/* harmony import */ var _styles_backgroundForm_sass__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./styles/backgroundForm.sass */ \"./src/styles/backgroundForm.sass\");\n/* harmony import */ var _styles_loginForm_sass__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./styles/loginForm.sass */ \"./src/styles/loginForm.sass\");\n/* harmony import */ var _styles_registerForm_sass__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./styles/registerForm.sass */ \"./src/styles/registerForm.sass\");\n/* harmony import */ var _assets_he4rt_footer_black_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../assets/he4rt-footer-black.png */ \"./assets/he4rt-footer-black.png\");\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\n\n//# sourceURL=webpack://my-webpack-project/./src/app.js?");
+
+/***/ }),
+
+/***/ "./assets/he4rt-footer-black.png":
+/*!***************************************!*\
+  !*** ./assets/he4rt-footer-black.png ***!
+  \***************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"images/he4rt-footer-black.png\");\n\n//# sourceURL=webpack://my-webpack-project/./assets/he4rt-footer-black.png?");
 
 /***/ }),
 
@@ -30,23 +40,13 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
-/***/ "./src/styles/Footer.sass":
-/*!********************************!*\
-  !*** ./src/styles/Footer.sass ***!
-  \********************************/
+/***/ "./src/styles/backgroundForm.sass":
+/*!****************************************!*\
+  !*** ./src/styles/backgroundForm.sass ***!
+  \****************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://my-webpack-project/./src/styles/Footer.sass?");
-
-/***/ }),
-
-/***/ "./src/styles/Logo.sass":
-/*!******************************!*\
-  !*** ./src/styles/Logo.sass ***!
-  \******************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://my-webpack-project/./src/styles/Logo.sass?");
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://my-webpack-project/./src/styles/backgroundForm.sass?");
 
 /***/ }),
 
@@ -60,6 +60,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 
 /***/ }),
 
+/***/ "./src/styles/footer.sass":
+/*!********************************!*\
+  !*** ./src/styles/footer.sass ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://my-webpack-project/./src/styles/footer.sass?");
+
+/***/ }),
+
 /***/ "./src/styles/global.sass":
 /*!********************************!*\
   !*** ./src/styles/global.sass ***!
@@ -67,6 +77,36 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://my-webpack-project/./src/styles/global.sass?");
+
+/***/ }),
+
+/***/ "./src/styles/loginForm.sass":
+/*!***********************************!*\
+  !*** ./src/styles/loginForm.sass ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://my-webpack-project/./src/styles/loginForm.sass?");
+
+/***/ }),
+
+/***/ "./src/styles/logo.sass":
+/*!******************************!*\
+  !*** ./src/styles/logo.sass ***!
+  \******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://my-webpack-project/./src/styles/logo.sass?");
+
+/***/ }),
+
+/***/ "./src/styles/registerForm.sass":
+/*!**************************************!*\
+  !*** ./src/styles/registerForm.sass ***!
+  \**************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://my-webpack-project/./src/styles/registerForm.sass?");
 
 /***/ })
 
