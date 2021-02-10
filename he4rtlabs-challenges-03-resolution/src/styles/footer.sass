@@ -13,19 +13,26 @@
 
   label
     position: fixed
-    right: 10px
+    right: 5px
     letter-spacing: 5px
-    padding: 5px
+    padding: 2px
     font-weight: 200
-    font-size: 0.9rem
+    font-size: 0.7rem
     text-align: center
+    @media (max-width: 1080px)
+      right: 1px
+      padding: 1px
+      width: 40%
+    @media (max-width: 300px)
+      display: none
+
   button
     background: #121212
     border: 2px solid #BB86FC
     border-radius: 16px
     width: 265px
     height: 38px
-    font-size: 1.4rem
+    font-size: 1.0rem
     font-family: Ubuntu, sans-serif
     letter-spacing: 5px
     line-height: 41px
@@ -35,3 +42,19 @@
     justify-content: center
     left: 30px
     color: #fff
+    @media (max-width: 1080px)
+      left: 0px
+      width: 40%
+      height: 30px
+      font-size: 1rem
+      max-width: 200px
+    @media (max-width: 300px)
+      width: 80%
+      left: 20px
+      right: 10px
+      max-width: 200px
+      font-size: 1rem
+  button:focus
+    outline: none
+  button:hover
+    opacity: 0.8

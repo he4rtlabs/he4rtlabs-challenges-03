@@ -3,9 +3,11 @@
   flex-direction: column
   justify-content: space-between
   align-items: center
+  @media (max-width: 1080px)
+    width: 70%
   label
     font-family: Ubuntu,sans-serif
-    font-size: 1.2rem
+    font-size: 1.0rem
     letter-spacing: 0.29em
     line-height: 21px
     text-align: center
@@ -21,15 +23,25 @@
     text-align: center
     font-size: 0.8rem
     color: #121212
+    @media (max-width: 1080px)
+      width: 80%
+  input:focus
+    outline: none
   button
     background: #121212
     border: 2px solid #fff
     border-radius: 16px
-    width: 302px
-    height: 45px
+    width: 50%
+    height: 30%
     font-size: 1.2rem
     font-family: Ubuntu, sans-serif
     line-height: 41px
     position: relative
     margin-top: 10px
     color: #fff
+    @media (max-width: 300px)
+      font-size: 0.9rem
+  button:focus
+    outline: none
+  button:hover
+    opacity: 0.8
