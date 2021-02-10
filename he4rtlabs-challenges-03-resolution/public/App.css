@@ -96,6 +96,12 @@ body {
     left: 30px;
     color: #fff; }
 
+@keyframe backgroundChange {
+  from {
+    background-color: #121212; }
+  to {
+    background-color: #BB86FC; } }
+
 .BackgroundForm {
   width: 709px;
   height: 467px;
@@ -107,7 +113,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: black; }
+  color: black;
+  transition: background-color 10s easy-in-out; }
 
 .LoginForm {
   display: flex;
