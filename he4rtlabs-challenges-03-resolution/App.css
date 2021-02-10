@@ -1,0 +1,183 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #121212;
+  line-height: 1;
+  color: #fff;
+  font-size: 21px; }
+  body h1 {
+    font-size: 2.5rem; }
+
+.Wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.Logo {
+  width: 167px;
+  height: 141px;
+  margin-top: 62px;
+  margin-bottom: 0px; }
+
+.Footer {
+  width: 100vw;
+  height: 40px;
+  background-color: #fff;
+  color: #121212;
+  font-family: Roboto, sans-serif;
+  position: fixed;
+  bottom: 0px;
+  display: flex;
+  align-items: center; }
+  .Footer label {
+    position: fixed;
+    right: 10px;
+    letter-spacing: 5px;
+    padding: 5px;
+    font-weight: 200;
+    font-size: 0.9rem;
+    text-align: center; }
+  .Footer button {
+    background: #121212;
+    border: 2px solid #BB86FC;
+    border-radius: 16px;
+    width: 265px;
+    height: 38px;
+    font-size: 1.8rem;
+    font-family: Ubuntu, sans-serif;
+    letter-spacing: 5px;
+    line-height: 41px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 30px;
+    color: #fff; }
+
+.BackgroundForm {
+  width: 709px;
+  height: 467px;
+  background-color: #fff;
+  border: 3px solid #BB86FC;
+  border-radius: 94px;
+  margin-top: 95px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black; }
+
+.LoginForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-itens: center; }
+  .LoginForm label {
+    font-family: Ubuntu,sans-serif;
+    font-size: 2.5rem;
+    letter-spacing: 0.29em;
+    line-height: 41px;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 25px; }
+  .LoginForm input {
+    margin-bottom: 25px;
+    width: 449px;
+    height: 71px;
+    border: 2px solid #121212;
+    border-radius: 40px;
+    text-align: center;
+    font-size: 1.2rem; }
+  .LoginForm button {
+    background: #121212;
+    border: 2px solid #BB86FC;
+    border-radius: 16px;
+    width: 302px;
+    height: 55px;
+    font-size: 2rem;
+    font-family: Ubuntu, sans-serif;
+    line-height: 41px;
+    position: relative;
+    margin-top: 20px;
+    left: 75px;
+    color: #fff; }
+
+.RegisterForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-itens: center; }
+  .RegisterForm label {
+    font-family: Ubuntu,sans-serif;
+    font-size: 24px;
+    letter-spacing: 0.29em;
+    line-height: 21px;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: #121212; }
+  .RegisterForm input {
+    margin-bottom: 15px;
+    width: 399px;
+    height: 43px;
+    border: 2px solid #121212;
+    border-radius: 40px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #121212; }
+  .RegisterForm button {
+    background: #121212;
+    border: 2px solid #fff;
+    border-radius: 16px;
+    width: 302px;
+    height: 55px;
+    font-size: 2rem;
+    font-family: Ubuntu, sans-serif;
+    line-height: 41px;
+    position: relative;
+    margin-top: 10px;
+    left: 60px;
+    color: #fff; }
+
