@@ -8,6 +8,9 @@ import './styles/footer.sass';
 import './styles/backgroundForm.sass';
 import './styles/loginForm.sass';
 import './styles/registerForm.sass';
+import './styles/loginBackgroundTransition.sass';
+import './styles/registerBackgroundTransition.sass';
+
 import '../assets/he4rt-footer-black.png';
 
 // JS
