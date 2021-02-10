@@ -3,7 +3,5 @@
 ## The challenge was about to create a login and register pages using only HTML/CSS
 
 ![Login Page](./public/images/login-page.png)
-Format: ![Alt Text]('https://github.com/midhatdrops/he4rtlabs-challenges-03/tree/midhatdrops/he4rtlabs-challenges-03-resolution)
 
 ![Register Page](./public/images/register-page.png)
-Format: ![Alt Text]('https://github.com/midhatdrops/he4rtlabs-challenges-03/tree/midhatdrops/he4rtlabs-challenges-03-resolution)
