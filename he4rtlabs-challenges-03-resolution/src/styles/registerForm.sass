@@ -5,6 +5,11 @@
   align-items: center
   @media (max-width: 3840px)
     width: 70%
+    height: 380px
+  @media (max-height: 750px)
+    height: 60%
+    max-height: 400px
+    justify-content: center
   label
     font-family: Ubuntu,sans-serif
     font-size: 1.0rem
@@ -14,6 +19,12 @@
     font-weight: 400
     margin-bottom: 5px
     color: #121212
+    @media (max-height: 750px)
+      line-height: 13px
+      margin-bottom: 3px
+    @media (max-height: 750px)
+      font-size: 0.9rem
+      line-height: 10px
   input
     margin-bottom: 8px
     width: 300px
@@ -25,6 +36,7 @@
     color: #121212
     @media (max-width: 3840px)
       width: 80%
+
   input:focus
     outline: none
   button
@@ -33,6 +45,7 @@
     border-radius: 16px
     width: 50%
     height: 30%
+    max-height: 50px
     font-size: 1.2rem
     font-family: Ubuntu, sans-serif
     line-height: 41px
@@ -41,6 +54,13 @@
     color: #fff
     @media (max-width: 300px)
       font-size: 0.9rem
+    @media (max-height: 750px)
+      max-height: 30px
+      display: flex
+      justify-content: center
+      align-itens: center
+      line-height: 10px
+      font-size: 0.7rem
   button:focus
     outline: none
   button:hover

@@ -10,6 +10,7 @@ import './styles/loginForm.sass';
 import './styles/registerForm.sass';
 import './styles/loginBackgroundTransition.sass';
 import './styles/registerBackgroundTransition.sass';
+import './styles/App.sass';
 
 import '../assets/he4rt-footer-black.png';
 

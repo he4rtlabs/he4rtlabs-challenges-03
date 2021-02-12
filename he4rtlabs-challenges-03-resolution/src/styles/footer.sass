@@ -10,6 +10,10 @@
   display: flex
   align-items: center
   transition: opacity 0.8s
+  @media (max-height: 650px)
+    height: 20px
+    margin-top: 10px
+    justify-content: center
 
   label
     position: fixed
@@ -24,6 +28,8 @@
       padding: 1px
       width: 40%
     @media (max-width: 300px)
+      display: none
+    @media (max-height: 650px)
       display: none
 
   button
@@ -54,6 +60,13 @@
       right: 10px
       max-width: 200px
       font-size: 1rem
+    @media (max-height: 650px)
+      height: 20px
+      width: 80%
+      left: 0px
+      right: 0px
+      max-width: 200px
+      font-size: 0.7rem
   button:focus
     outline: none
   button:hover
